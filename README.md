@@ -12,5 +12,5 @@ def play_again():
 
 Seperate functions for readability.
 
-Create a dictionary
+Create a dictionary to hold all the qestions and answers.
 
