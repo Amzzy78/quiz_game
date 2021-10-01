@@ -24,5 +24,4 @@ options = [["A. Druids", "B. Fionn mac Cumhaill", "C. Michael D Higgins", "D. Bi
           ["A. Poitin", "B. Mead", "C. Guinness", "D. Whiskey"]
           ["A. Algae", "B. Hazelnuts", "C. Seaweed", "D. Potatoes"]
           ["A. The Voyage of Máel Dúin", "B. Tír na nÓg", "C. The Children of Lir", "D. Táin Bó Cúailnge"]
-
 ]

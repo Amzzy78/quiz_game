@@ -14,3 +14,8 @@ Seperate functions for readability.
 
 Create a dictionary to hold all the qestions and answers.
 
+website content: https://fantasticfungi.com/the-mush-room/mushroom-folklore-the-mushroom-folklore-of-ireland/
+
+
+Create a new game function to call the new_game()
+
