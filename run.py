@@ -1,15 +1,33 @@
 # ---------------------------------
 def new_game():
     
-    guesses = []
+    guesses = [] # list name
     correct_guesses = 0
-    questions_num = 1
+    question_num = 1 # Current qestion number
 
     for key in questions:
+        print("-----------------------------")
         print(key)
+        for i in options[question_num-1]:
+            print(i)
+        # User input and prompt.
+        guess = input("Enter (A, B, C, D): ")
+        guess = guess.upper()
+        guesses.append(guess)
+        # Fill in the check_answer function and pass the key and guess function.
+        correct_guesses += check_answer(qestions.get(key),guess)
+        # Increment each question number after each iteration.
+        question_num += 1  
+
+# Set up parameters for the check_answer function         
 # ---------------------------------
-def check_answer():
-    pass
+def check_answer(answer, guess):
+    if answer == guess:
+        print("CEART!")
+        return 1
+    else:
+        print("Mícheart")
+        return 0
 # ---------------------------------
 def display_score():
     pass

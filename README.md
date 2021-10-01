@@ -27,7 +27,38 @@ Create variables for the answers within the new_game function.
  Display all questions within a for loop.
      for key in questions:
         print(key)
+Add a new print statement before the print(key) to add some seperation between questions.
 
-        
+
+Display all the different options for the answers with a nested for loop.
+         for i in options[question_num-1]:
+             print(i)
+
+Increment each question number after each iteration.  
+          question_num += 1 
+
+User input: 
+    guess = input("Enter (A, B, C, D): ") 
+Modify for uppercase senario.
+
+Fill in the check_answer function:
+      check_answer(qestions.get(key),guess)
+
+Set up parameters for the check_answer function:
+def check_answer(answer, guess):
+    if answer == guess:
+        print("CEART!")
+        return 1
+    else:
+        print("Mícheart")
+        return 0  
+
+Increment each correct guess by 1:
+correct_guesses += check_answer(qestions.get(key),guess)  
+
+Display the final score outside the for loop.
+
+
+
 
 
