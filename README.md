@@ -12,8 +12,8 @@ def play_again():
 
 Seperate functions for readability.
 
-Create a dictionary to hold all the qestions and answers.
-Create a lists of lists for the answers.
+Create a dictionary to hold all the questions and answers.
+Create a lists of lists for the answers with the key value pairs(A,B,C,D).
 
 website content: https://fantasticfungi.com/the-mush-room/mushroom-folklore-the-mushroom-folklore-of-ireland/
 
@@ -57,7 +57,28 @@ Increment each correct guess by 1:
 correct_guesses += check_answer(qestions.get(key),guess)  
 
 Display the final score outside the for loop.
+  display_score(correct_guesses, guesses) 
 
+  def display_score(correct_guesses, guesses):
+    print("-----------------------------")
+    print("TORTHAÍ(RESULTS)")
+    print("-----------------------------")
+    print("Answers: ", end="")
+# Display questions
+    for i in questions:
+        print(questions.get(i), end="")
+    print()
+
+# Display the guesses.
+  print("Guesses: ", end="")
+     # Display guesses
+    for i in guesses:
+        print(i, end="")
+    print()
+
+# Final score and print
+score = int((correct_guesses/len(questions)) * 100)
+    print("Your score is: "+str(score)+"%")    
 
 
 
