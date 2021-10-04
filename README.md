@@ -81,7 +81,18 @@ Display the final score outside the for loop.
 
 # Final score and print
 score = int((correct_guesses/len(questions)) * 100)
-    print("Your score is: "+str(score)+"%")    
+    print("Your score is: "+str(score)+"%")  
+
+# Option to play again
+def play_again():
+    
+    response = input("Do you want to play again? (yes or no): ")
+    response = response.upper()
+
+    if response == "Yes":
+        return True
+    else:
+        return False       
 
 
 

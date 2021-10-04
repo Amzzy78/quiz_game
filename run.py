@@ -1,9 +1,10 @@
 # ---------------------------------
-def new_game():
-    
-    guesses = [] # list name
+def new_game():  
+    guesses = [] 
     correct_guesses = 0
-    question_num = 1 # Current qestion number
+    question_num = 1 
+
+    
 # Nested for loop
     for key in questions:
         print("-----------------------------")
@@ -41,13 +42,13 @@ def display_score(correct_guesses, guesses):
     print("Answers: ", end="")
     # Display questions loop
     for i in questions:
-        print(questions.get(i), end="")
+        print(questions.get(i), end=" ")
     print()
 
     print("Guesses: ", end="")
      # Display guesses loop
     for i in guesses:
-        print(i, end="")
+        print(i, end=" ")
     print()
 
     score = int((correct_guesses/len(questions)) * 100)
@@ -55,7 +56,7 @@ def display_score(correct_guesses, guesses):
 # ---------------------------------
 def play_again():
     
-    response = input("Do you want to play again?  (yes or no): ")
+    response = input("Do you want to play again? (yes or no): ")
     response = response.upper()
 
     if response == "Yes":
