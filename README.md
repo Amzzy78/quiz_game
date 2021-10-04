@@ -31,8 +31,11 @@ Add a new print statement before the print(key) to add some seperation between q
 
 
 Display all the different options for the answers with a nested for loop.
-         for i in options[question_num-1]:
-             print(i)
+    for key in questions:
+        print("-----------------------------")
+        print(key)
+        for i in options[question_num-1]:
+            print(i)
 
 Increment each question number after each iteration.  
           question_num += 1 

@@ -39,13 +39,13 @@ def display_score(correct_guesses, guesses):
     print("-----------------------------")
 
     print("Answers: ", end="")
-    # Display questions
+    # Display questions loop
     for i in questions:
         print(questions.get(i), end="")
     print()
 
     print("Guesses: ", end="")
-     # Display guesses
+     # Display guesses loop
     for i in guesses:
         print(i, end="")
     print()
@@ -54,7 +54,14 @@ def display_score(correct_guesses, guesses):
     print("Your score is: "+str(score)+"%")
 # ---------------------------------
 def play_again():
-    pass
+    
+    response = input("Do you want to play again?  (yes or no): ")
+    response = response.upper()
+
+    if response == "Yes":
+        return True
+    else:
+        return False 
 # ---------------------------------
 
 
@@ -72,3 +79,8 @@ options = [["A. Druids", "B. Fionn mac Cumhaill", "C. Michael D Higgins", "D. Bi
 
 # Call the new_game function to begin a new game
 new_game() 
+
+while play_again():
+    new_game()
+
+print("Bye!")
