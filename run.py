@@ -12,7 +12,7 @@ def new_game():
         for i in options[question_num-1]:
             print(i)
         # User input and prompt.
-        guess = input("Enter (A, B, C, D): ")
+        guess = input("Enter (A, B, C, D):\n ")
         guess = guess.upper()
         guesses.append(guess)
         # Fill in the check_answer function and pass the key for current question and guess function.
@@ -56,7 +56,7 @@ def display_score(correct_guesses, guesses):
 # ---------------------------------
 def play_again():
     
-    response = input("Do you want to play again? (yes or no): ")
+    response = input("Do you want to play again? (yes or no):\n")
     response = response.upper()
 
     if response == "Yes":

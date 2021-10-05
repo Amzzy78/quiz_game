@@ -15,7 +15,8 @@ Seperate functions for readability.
 Create a dictionary to hold all the questions and answers.
 Create a lists of lists for the answers with the key value pairs(A,B,C,D).
 
-website content: https://fantasticfungi.com/the-mush-room/mushroom-folklore-the-mushroom-folklore-of-ireland/
+website content credit: https://fantasticfungi.com/the-mush-room/mushroom-folklore-the-mushroom-folklore-of-ireland/
+code credit: https://www.youtube.com/watch?v=XKHEtdqhLK8
 
 
 Call the new_game function to begin a new game.
@@ -50,10 +51,10 @@ Fill in the check_answer function:
 Set up parameters for the check_answer function:
 def check_answer(answer, guess):
     if answer == guess:
-        print("CEART!")
+        print("CORRECT!")
         return 1
     else:
-        print("Mícheart")
+        print("WRONG")
         return 0  
 
 Increment each correct guess by 1:
@@ -64,7 +65,7 @@ Display the final score outside the for loop.
 
   def display_score(correct_guesses, guesses):
     print("-----------------------------")
-    print("TORTHAÍ(RESULTS)")
+    print("RESULTS")
     print("-----------------------------")
     print("Answers: ", end="")
 # Display questions
