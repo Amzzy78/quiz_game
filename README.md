@@ -2,11 +2,11 @@
 Fáilte! https://quiz-game-folklore.herokuapp.com/
 Welcome! https://github.com/Amzzy78/quiz_game
 
+This Irish Folklore Quiz is aimed at participants who have an interest in ancient Celtic folklore. 
 At the start of the program there is an input to add your name and a welcome message. The game asks a question and gives multiple choice options for the participant to choose from four different answers. The questions are based on Irish Folklore.
 The game tracks the progress of the participant and displays whether the answer is correct or wrong. A displayed score will also be shown at the end of the game.
- There is also an option to play again or quit.
+There is also an option to play again or quit.
 
-# This Irish Folklore Quiz is aimed at participants who have an interest in ancient Celtic folklore. 
 
 # Game Instructions
 
@@ -18,7 +18,7 @@ The game tracks the progress of the participant and displays whether the answer 
 3. Choose your answer from the muliple choices presented.
 ![questions-answers](https://user-images.githubusercontent.com/62209464/159185908-dd3249bb-2717-4a55-870d-647d4413c54a.jpg)
 4. When you have answered all the questions, there will be a score displayed.
-5. There will be an option to play agin or exit.
+5. There will be an option to play again or exit.
 ```md
 ![end_game](https://user-images.githubusercontent.com/62209464/159185931-d87dd255-e80c-4c90-97b8-21265dfd69c4.jpg)
 ```
