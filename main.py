@@ -1,3 +1,4 @@
+import sys
 import random
 
 def get_tof_statements():
