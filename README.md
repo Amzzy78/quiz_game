@@ -11,7 +11,7 @@ There is also an option to play again or quit.
 # Game Instructions
 
 1. Start the game by typing python3 run.py in the terminal.
- 2. You will get a prompt to type your name.
+2. You will get a prompt to type your name.
 ![name-input](https://user-images.githubusercontent.com/62209464/159185925-84de3e74-7bbb-4b17-8249-c279600c9507.jpg)
 3. Choose your answer from the muliple choices presented.
 ![questions-answers](https://user-images.githubusercontent.com/62209464/159185908-dd3249bb-2717-4a55-870d-647d4413c54a.jpg)
@@ -20,19 +20,18 @@ There is also an option to play again or quit.
 ![end_game](https://user-images.githubusercontent.com/62209464/159185931-d87dd255-e80c-4c90-97b8-21265dfd69c4.jpg)
 
 ## Features
-. Fun to play!
-. Simple Python code
-. Easy to install
-. Depends only on the Python Standard Library
-. Developed on Python 3.8.12
-. Fully Documented
-. Validation prompts
+
+1. Fun to play!
+2. Simple Python code
+3. Easy to install
+4. Depends only on the Python Standard Library
+5. Developed on Python 3.8.12
+6. Fully Documented
+7. Validation prompts
 
 ## Validation Testing
 Pep8 used to ceheck for errors and requirements. 
-```md
-![alt text](assets/images/screenshot.png)
-```
+![pep8](https://user-images.githubusercontent.com/62209464/159186228-3a9d866c-f83d-4038-813e-e141f9fb490b.jpg)
 ## Features Left to Implement
 For future work, the questions will be directly retrieved from the Postgres database.
 Design features using HTML and CSS.
