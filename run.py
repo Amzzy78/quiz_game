@@ -1,8 +1,21 @@
 """..."""
-import sys
-print("Welcome to Irish Folklore Quiz!")
+print("|--------------------------------|")
+print("| Fáilte to Irish Folklore Quiz! |")
+print("|--------------------------------|")
 # ---------------------------------------
+# User name input
+while True:
+    name = input("Hello, what is your name: ")
+    if not name.isupper():
+        print('Error, name in all caps please')
+    else:
+        print(f'Fáilte, {name}')
+        print("|-----------------------------|")
+        break
 
+         
+
+# Start game
 
 def new_game():
     """..."""
@@ -119,5 +132,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-    print("Bye! Thank you for playing. ")
-    sys.exit()
+    print("Slán! Thank you for playing. ")
+    exit()
