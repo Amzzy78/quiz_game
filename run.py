@@ -13,7 +13,7 @@ while True:
         print("|-----------------------------|")
         break
 
-# Start game
+# New Game function
 
 
 def new_game():
@@ -39,8 +39,8 @@ def new_game():
             else:
                 print()
                 break
-# Fill in the check_answer function and pass the key for current
-# # question and guess function.
+# Check_answer function and pass the key for current
+# question and guess function.
         correct_guesses += check_answer(questions.get(key), guess)
         # Increment each question number after each iteration.
         question_num += 1
@@ -62,6 +62,7 @@ def check_answer(answer, guess):
         print("WRONG!")
         return 0
 # ---------------------------------
+# Set display score function
 
 
 def display_score(correct_guesses, guesses):
@@ -85,6 +86,7 @@ def display_score(correct_guesses, guesses):
     score = int((correct_guesses/len(questions)) * 100)
     print("Your score is: "+str(score)+"%")
 # ---------------------------------
+# Set up play again function
 
 
 def play_again():
@@ -100,7 +102,7 @@ def play_again():
         else:
             print("Not a valid answer!")
 # ---------------------------------
-# Create dictionary for questions
+# Dictionary for questions
 
 
 questions = {
@@ -116,7 +118,7 @@ options = [["A. Druids", "B. Fionn mac Cumhaill", "C. Michael D Higgins", "D. Bi
            ["A. Algae", "B. Seaweed", "C. Hazelnuts", "D. Potatoes"],
            ["A. The Voyage of Máel Dúin", "B. Tír na nÓg", "C. The Children of Lir", "D. Táin Bó Cúailnge"]]   # noqa
 
-# Call the new_game function to begin a new game
+# Call the new_game function to begin a new game or exit game
 
 
 def main():
