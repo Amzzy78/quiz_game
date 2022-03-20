@@ -12,16 +12,12 @@ There is also an option to play again or quit.
 
 1. Start the game by typing python3 run.py in the terminal.
  2. You will get a prompt to type your name.
-```md
 ![name-input](https://user-images.githubusercontent.com/62209464/159185925-84de3e74-7bbb-4b17-8249-c279600c9507.jpg)
-```
 3. Choose your answer from the muliple choices presented.
 ![questions-answers](https://user-images.githubusercontent.com/62209464/159185908-dd3249bb-2717-4a55-870d-647d4413c54a.jpg)
 4. When you have answered all the questions, there will be a score displayed.
 5. There will be an option to play again or exit.
-```md
 ![end_game](https://user-images.githubusercontent.com/62209464/159185931-d87dd255-e80c-4c90-97b8-21265dfd69c4.jpg)
-```
 
 ## Features
 . Fun to play!
