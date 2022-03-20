@@ -2,7 +2,7 @@
 print("|--------------------------------|")
 print("| Fáilte to Irish Folklore Quiz! |")
 print("|--------------------------------|")
-# --------------------------------------------
+# ---------------------------------------
 # User name input
 while True:
     name = input("Hello, what is your name: ")
@@ -10,7 +10,7 @@ while True:
         print('Error, name in all caps please')
     else:
         print(f'Fáilte, {name}')
-        print("|------------------------|")
+        print("|------------------------------|")
         break
 
 # New Game function
@@ -24,7 +24,7 @@ def new_game():
     question_num = 1
 # Nested for loop
     for key in questions:
-        print("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+        print("-----------------------------")
         print(key)
         for i in options[question_num-1]:
             print(i)
@@ -67,11 +67,9 @@ def check_answer(answer, guess):
 
 def display_score(correct_guesses, guesses):
     """..."""
-    print("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
-
+    print("-----------------------------")
     print("RESULTS")
-    print("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
-
+    print("-----------------------------")
 
     print("Answers: ", end="")
     # Display questions loop
@@ -120,7 +118,7 @@ options = [["A. Druids", "B. Fionn mac Cumhaill", "C. Michael D Higgins", "D. Bi
            ["A. Algae", "B. Seaweed", "C. Hazelnuts", "D. Potatoes"],
            ["A. The Voyage of Máel Dúin", "B. Tír na nÓg", "C. The Children of Lir", "D. Táin Bó Cúailnge"]]   # noqa
 
-# Call the new_game function to begin a new game or exit game
+# Call the new_game function to begin a new game or exit
 
 
 def main():
