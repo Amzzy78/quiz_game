@@ -39,9 +39,8 @@ def new_game():
             else:
                 print()
                 break
-            
-        # Fill in the check_answer function and pass the key for current
-        # question and guess function.
+# Fill in the check_answer function and pass the key for current
+# # question and guess function.
         correct_guesses += check_answer(questions.get(key), guess)
         # Increment each question number after each iteration.
         question_num += 1
@@ -105,17 +104,17 @@ def play_again():
 
 
 questions = {
-    "Who trained for 20 years in subjects such as law, astronomy, philosophy, poetry, medicine, music, geometry divination, and magic?: ": "A",# noqa
-    "What is a common ancient Irish beverage used also for ritual where it would be spiked with certain herbs ?: ": "B", # noqa
-    "In Irish Folklore what was eaten eaten by the Salmon, fished up by the druid, and cooked by young Finn, who, as sorcerers' apprentice, burns his thumb on the Salmons' skin, sticks thumb in mouth, and attains all the wisdom in his masters' stead?: ": "C", # noqa
-    "In Irish Mythology what is the name of the story of the son of a warrior chieftain, who experiences an Isle of intoxicating wine fruits during his journey to avenge his fathers' death?: ": "A", # noqa
+    "Who trained for 20 years in subjects such as law, astronomy, philosophy, poetry, medicine, music, geometry divination, and magic?: ": "A",  # noqa
+    "What is a common ancient Irish beverage used also for ritual where it would be spiked with certain herbs ?: ": "B",  # noqa
+    "In Irish Folklore what was eaten eaten by the Salmon, fished up by the druid, and cooked by young Finn, who, as sorcerers' apprentice, burns his thumb on the Salmons' skin, sticks thumb in mouth, and attains all the wisdom in his masters' stead?: ": "C",  # noqa
+    "In Irish Mythology what is the name of the story of the son of a warrior chieftain, who experiences an Isle of intoxicating wine fruits during his journey to avenge his fathers' death?: ": "A",  # noqa
 }
 # Create a list of lists to hold the answers and responds to a key value pair
 # within the list of questions
-options = [["A. Druids", "B. Fionn mac Cumhaill", "C. Michael D Higgins", "D. Biddy Early"], # noqa
+options = [["A. Druids", "B. Fionn mac Cumhaill", "C. Michael D Higgins", "D. Biddy Early"],  # noqa
            ["A. Poitin", "B. Mead", "C. Guinness", "D. Whiskey"],
            ["A. Algae", "B. Seaweed", "C. Hazelnuts", "D. Potatoes"],
-           ["A. The Voyage of Máel Dúin", "B. Tír na nÓg", "C. The Children of Lir", "D. Táin Bó Cúailnge"]] # noqa
+           ["A. The Voyage of Máel Dúin", "B. Tír na nÓg", "C. The Children of Lir", "D. Táin Bó Cúailnge"]]   # noqa
 
 # Call the new_game function to begin a new game
 
