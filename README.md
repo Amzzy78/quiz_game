@@ -1,4 +1,9 @@
-Quiz Game.
+# A simple Irish Folklore Quiz game using Python.
+# hr
+## At the start of the program there is an input to add your name and a welcome message. The game asks a question and gives multiple choice options for the participant to choose from four different answers. The questions are based on Irish Folklore.
+## The game tracks the progress of the participant and displays whether the answer is correct or wrong. A displayed score will also be shown at the end of the game.
+## There is also an option to play again or quit.
+
 
 Create a skeleton structure to understand how the game is going to oporate by creating four functions:
 def new_game():

@@ -110,13 +110,19 @@ questions = {
     "What is a common ancient Irish beverage used also for ritual where it would be spiked with certain herbs ?: ": "B",  # noqa
     "In Irish Folklore what was eaten eaten by the Salmon, fished up by the druid, and cooked by young Finn, who, as sorcerers' apprentice, burns his thumb on the Salmons' skin, sticks thumb in mouth, and attains all the wisdom in his masters' stead?: ": "C",  # noqa
     "In Irish Mythology what is the name of the story of the son of a warrior chieftain, who experiences an Isle of intoxicating wine fruits during his journey to avenge his fathers' death?: ": "A",  # noqa
+    "Druids were said to have prepared a particular mushroom for consumption and eaten it for its hallucinogenic properties because the hallucinations conferred great knowledge and enlightenment. What mushroom did they eat? ": "B",  # noqa
+    "It is surmised that the druids would consume mushrooms and then sit in a certain type of dwelling, which appear all over Ireland. What type of dwellings did they sit in?: ": "A", # noqa
+    "Fairies were said to live in “cnocs agus sibhe”. What is a cnoc agus sibhe?: ": "C",  # noqa
 }
 # Create a list of lists to hold the answers and responds to a key value pair
 # within the list of questions
 options = [["A. Druids", "B. Fionn mac Cumhaill", "C. Michael D Higgins", "D. Biddy Early"],  # noqa
            ["A. Poitin", "B. Mead", "C. Guinness", "D. Whiskey"],
            ["A. Algae", "B. Seaweed", "C. Hazelnuts", "D. Potatoes"],
-           ["A. The Voyage of Máel Dúin", "B. Tír na nÓg", "C. The Children of Lir", "D. Táin Bó Cúailnge"]]   # noqa
+           ["A. The Voyage of Máel Dúin", "B. Tír na nÓg", "C. The Children of Lir", "D. Táin Bó Cúailnge"],   # noqa
+           ["A. The Liberty Cap", "B. Fly Agaric", "C. Oyster", "C. Golden Chanterelles", "D. Black Trumpet"],  # noqa
+           ["A. Sweat Houses", "B. Dolmens", "C. Crannógs", "D. Brugh"],  # noqa
+           ["A. Tree House", "B. Stables", "C. Mounds of Earth", "D. Caravans"]]  # noqa
 
 # Call the new_game function to begin a new game or exit
 
